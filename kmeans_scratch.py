@@ -3,7 +3,6 @@ from numpy.linalg import norm
 
 
 class Kmeans:
-    '''Implementing Kmeans algorithm.'''
 
     def __init__(self, n_clusters, max_iter=100, random_state=123):
         self.n_clusters = n_clusters
